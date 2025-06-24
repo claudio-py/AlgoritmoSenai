@@ -4,7 +4,7 @@
 
 int main() {
   char placa[10];
-  int tem_num = 0, tem_letra = 0;
+  int tem_letra = 0;
 
   printf("Digite apenas os quatro ultimos caracteres da placa do veiculo: ");
   scanf("%[^\n]s", placa);
