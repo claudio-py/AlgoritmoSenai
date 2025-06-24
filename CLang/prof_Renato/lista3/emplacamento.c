@@ -15,7 +15,7 @@ int main() {
       if (isalpha(placa[i]))
         ++tem_letra;
 
-if (tem_letra > 0  && (isalpha(placa[1]) == 0)) {
+  if (tem_letra > 0 && (isalpha(placa[1]) == 0)) {
     printf("placa invalida, deve conter somente uma letra\n");
     return 1;
   }
